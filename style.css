@@ -32,6 +32,7 @@ header
 
 .logo {
     width: 107px;
+    margin-left: -229px;
 }
 header ul
 {
@@ -48,9 +49,11 @@ header ul li a
 {
     /* display: inline-block; */
     color: #333;
-    font-weight: 400;
-    margin-left: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+    /* margin-right: 2px; */
     text-decoration: none;
+    font-size: 20px;
 }
 .content{
 /* position: relative; */
@@ -70,14 +73,18 @@ align-items: center;
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
+    margin-left: 50px;
 }
  .textbox h2 span{
-    color: rgb(8, 65, 8);
+    color: rgb(14, 77, 14);
     font-size: 1.2em;
     font-weight: 900;
+    /* margin-left: 50px; */
 }
  .textbox p{
     color: #333;
+    margin-left: 50px;
+    font-size: 20px;
 }
  .textbox a{
     display: inline-block;
@@ -89,16 +96,17 @@ align-items: center;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    margin-left: 50px;
 }
  .imgbox{
 width: 50%;
 display: flex;
 justify-content: flex-end;
-padding-right: 50px;
+padding-right: 350px;
 margin-top: 50px;
 }
  .imgbox img{
-    max-width: 340px;
+    max-width: 330px;
 }
 .foot{
     display: flex;
@@ -117,8 +125,9 @@ margin-top: 50px;
     align-items: center;
 }
 .picture img{
-    width: 5%;
-    margin: 0 5px;
+    width: 7%;
+    margin: 0 20px;
     cursor: pointer;
+    margin-bottom: 20px;
     
 }
