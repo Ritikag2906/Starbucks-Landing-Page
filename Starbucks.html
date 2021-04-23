@@ -8,6 +8,7 @@
 
 <body>
     <section>
+        <div class="circle"></div>
         <header>
             <a href="#"><img src="/images/logo.png" class="logo"></a>
             <ul>
@@ -32,16 +33,25 @@
         </div>
         <div class="foot">
         <ul class="picture">
-            <img src="/images/picture1.png" alt="">
-           <img src="/images/picture2.png" alt="">
-            <img src="/images/picture3.png" alt="">
+            <img src="/images/picture1.png" onclick="imgslider('images/picture1.png'); changeCircleColor('#017143')" >
+           <img src="/images/picture2.png" onclick="imgslider('images/picture2.png'); changeCircleColor('#eb7495')" >
+            <img src="/images/picture3.png" onclick="imgslider('images/picture3.png'); changeCircleColor('#d752b1')" >
         </ul>
     </div>
     <ul class="side">
-       <li><a href="#"> <img src="/images/facebook.png" alt=""></a></li> 
-        <li><a href="#"> <img src="/images/twitter.png" alt=""></a></li> 
-        <li><a href="#"> <img src="/images/instagram.png" alt=""></a></li> 
+       <li><a href="#"> <img src="/images/facebook.png" ></a></li> 
+        <li><a href="#"> <img src="/images/twitter.png" ></a></li> 
+        <li><a href="#"> <img src="/images/instagram.png" ></a></li> 
     </ul>
     </section>
+    <script type="text/javascript">
+    function imgslider(anything){
+        document.querySelector('.Starbucks').src = anything;
+    }
+    function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background = color;
+    }
+    </script>
 </body>
 </html>
