@@ -7,10 +7,9 @@
 }
 section
 {
-    /* position: relative; */
     width: 100%;
     min-height: 100vh;
-    /* padding: 100px; */
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,13 +18,11 @@ section
 }
 header
 {
-   /* position: absolute; */
-   /* top: 0;
-   left: 0; */
+  
     width: 100%;
     padding: 20px 20px;
     display: flex;
-    /* justify-content: space-between; */
+    
     align-items: center;
     justify-content: center;
 }
@@ -36,7 +33,7 @@ header
 }
 header ul
 {
-    /* position: relative; */
+    
     display: flex;
     width: 70%;
     justify-content: flex-end;
@@ -47,24 +44,22 @@ header ul li
 }
 header ul li a
 {
-    /* display: inline-block; */
+    
     color: #333;
     font-weight: 600;
     margin-left: 40px;
-    /* margin-right: 2px; */
+    
     text-decoration: none;
     font-size: 20px;
 }
 .content{
-/* position: relative; */
+
 width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 .textbox{
-    /* position: absolute; */
-    /* max-width: 600px; */
     width: 30%;
     margin-left: 40px;
     
@@ -80,7 +75,6 @@ align-items: center;
     color: rgb(14, 77, 14);
     font-size: 1.2em;
     font-weight: 900;
-    /* margin-left: 50px; */
 }
  .textbox p{
     color: #333;
@@ -118,10 +112,6 @@ margin-top: 50px;
     width: 100%;
 }
 .picture{
-    /* position: absolute; */
-    /* left: 50%;
-    bottom: 20px; */
-
     display: flex;
     width: 50%;
     justify-content: center;
